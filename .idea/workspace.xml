@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c76eb477-86a2-4ef2-8243-e0470b530770" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Tema2.Practica1/src/main/java/Youtuber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2Practica1/src/main/java/Youtuber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2.Practica1/src/main/java/YoutuberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2Practica1/src/main/java/YoutuberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2.Practica1/src/main/resources/youtubers.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2Practica1/src/main/resources/youtubers.csv" afterDir="false" />
+    <list default="true" id="c76eb477-86a2-4ef2-8243-e0470b530770" name="Changes" comment="Prueba1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema2Practica1/src/main/java/Youtuber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2.Practica1/src/main/java/Youtuber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema2Practica1/src/main/java/YoutuberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2.Practica1/src/main/java/YoutuberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema2Practica1/src/main/resources/youtubers.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2.Practica1/src/main/resources/youtubers.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +20,37 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/Tema2.Practica1">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="DWES-JRG" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="DWES-JRG" type="f1a62948:ProjectNode" />
+                <item name="Tema2.Practica1" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="DWES-JRG" type="f1a62948:ProjectNode" />
+                <item name="Tema2.Practica1" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -30,18 +63,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Rodriguezgraujuan"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Rodriguezgraujuan&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Rodriguezgraujuan/DWES-JRG.git",
-    "accountId": "acc872cc-d5ab-4460-8ab4-1f0e500ae4a8"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Rodriguezgraujuan/DWES-JRG.git&quot;,
+    &quot;accountId&quot;: &quot;acc872cc-d5ab-4460-8ab4-1f0e500ae4a8&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -51,14 +84,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.DWES-JRG:Tema2.Practica1 [:Tema2.Practica1:YoutuberService.main()].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/juarodgra2/IdeaProjects/DWES-JRG/Tema2.Practica1/src/main/java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.DWES-JRG:Tema2.Practica1 [:Tema2.Practica1:YoutuberService.main()].executor": "Run",
+    "Gradle.Documents:Tema2.Practica1 [:Tema2.Practica1:YoutuberService.main()].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/juarodgra2/IdeaProjects/DWES-JRG/Tema2.Practica1/src/main/java",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Tema2.Practica1/src/main/java" />
@@ -89,9 +124,22 @@
       <option name="presentableId" value="Default" />
       <updated>1727246424769</updated>
     </task>
+    <task id="LOCAL-00001" summary="Prueba1">
+      <option name="closed" value="true" />
+      <created>1727331555439</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727331555439</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Prueba1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prueba1" />
   </component>
 </project>

@@ -3,6 +3,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
 import java.util.*;
 
 public class YoutuberService {
@@ -16,6 +17,7 @@ public class YoutuberService {
         System.out.println("Media de Videos: "+mediaVideos(youtubers));
         System.out.println(youtubers2013(youtubers));
         System.out.println(youtuberTopIngresos3(youtubers));
+        youtuberForYear(youtubers);
     }
 
     public static Youtuber youtuberConMasSeguidores(List<Youtuber> youtubers) throws ParseException {
@@ -44,8 +46,16 @@ public class YoutuberService {
     }
 
     public static List<Youtuber> youtuberTopIngresos3(List<Youtuber> youtubers){
-        youtubers.stream().sorted(Comparator.comparingDouble(p -> p.estimatedIncome())).forEach(p -> System.out.println(p.estimatedIncome()));
-        return youtubers.stream().sorted(Comparator.comparingDouble(p -> p.estimatedIncome())).toList();
+        return youtubers.stream().sorted(Comparator.comparingDouble(Youtuber::estimatedIncome).reversed()).toList();
+    }
+
+    public static void youtuberForYear(List<Youtuber> youtubers) throws ParseException {
+        SimpleDateFormat dateYear = new SimpleDateFormat("yyyy");
+        List<String> years = youtubers.stream().map(p-> dateYear.format(p.fecha())).distinct().toList();
+        for (String year : years){
+            System.out.println(year);
+            youtubers.stream().filter(p-> dateYear.format(p.fecha()).equals(year)).forEach(System.out::println);
+        }
     }
 
 
