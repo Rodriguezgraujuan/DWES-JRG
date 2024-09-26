@@ -9,18 +9,9 @@ import java.util.*;
 public class YoutuberService {
     static SimpleDateFormat date = new SimpleDateFormat("yyyy-MM-dd");
 
-    public static void main(String[] args) throws ParseException {
-        Path fichero = Path.of("/home/juarodgra2/IdeaProjects/DWES-JRG/Tema2.Practica1/src/main/resources//youtubers.csv");
-        List<Youtuber> youtubers = new ArrayList<>();
-        leerFichero(fichero, youtubers);
-        System.out.println("Youtuber con mas subs: "+ youtuberConMasSeguidores(youtubers));
-        System.out.println("Media de Videos: "+mediaVideos(youtubers));
-        System.out.println(youtubers2013(youtubers));
-        System.out.println(youtuberTopIngresos3(youtubers));
-        youtuberForYear(youtubers);
-    }
 
-    public static Youtuber youtuberConMasSeguidores(List<Youtuber> youtubers) throws ParseException {
+
+    public Youtuber youtuberConMasSeguidores(List<Youtuber> youtubers) throws ParseException {
         Youtuber youtuber = null;
         if (!(youtubers.isEmpty())) {
               Optional<Youtuber> optionalYou=youtubers.stream().max(Comparator.comparingInt(Youtuber::numSegruidores));
@@ -29,12 +20,12 @@ public class YoutuberService {
         return youtuber;
     }
 
-    public static Double mediaVideos(List<Youtuber> youtubers){
+    public Double mediaVideos(List<Youtuber> youtubers){
         OptionalDouble optionalDouble = youtubers.stream().mapToInt(Youtuber::numVideos).average();
         return (double) Math.round(optionalDouble.orElse(0));
     }
 
-    public static List<Youtuber> youtubers2013(List<Youtuber> youtubers){
+    public List<Youtuber> youtubers2013(List<Youtuber> youtubers){
         return youtubers.stream()
                 .filter(p-> {
             try {
@@ -45,11 +36,11 @@ public class YoutuberService {
         }).toList();
     }
 
-    public static List<Youtuber> youtuberTopIngresos3(List<Youtuber> youtubers){
+    public List<Youtuber> youtuberTopIngresos3(List<Youtuber> youtubers){
         return youtubers.stream().sorted(Comparator.comparingDouble(Youtuber::estimatedIncome).reversed()).toList();
     }
 
-    public static void youtuberForYear(List<Youtuber> youtubers) throws ParseException {
+    public void youtuberForYear(List<Youtuber> youtubers) throws ParseException {
         SimpleDateFormat dateYear = new SimpleDateFormat("yyyy");
         List<String> years = youtubers.stream().map(p-> dateYear.format(p.fecha())).distinct().toList();
         for (String year : years){
@@ -67,7 +58,7 @@ public class YoutuberService {
 
 
 /*
-    public static void escribirFichero(Path fichero){
+    public void escribirFichero(Path fichero){
         try (FileOutputStream fos = new FileOutputStream(fichero.toFile());
              ObjectOutputStream oos = new ObjectOutputStream(fos)) {
 
@@ -78,7 +69,7 @@ public class YoutuberService {
         }
     }
 */
-    public static void leerFichero(Path fichero, List<Youtuber> youtubers) {
+    public void leerFichero(Path fichero, List<Youtuber> youtubers) {
         try {
             List<String> archivoLeido = Files.readAllLines(fichero);
 
