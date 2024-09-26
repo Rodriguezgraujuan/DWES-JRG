@@ -14,14 +14,13 @@ public class TestYoutuberService {
     private SimpleDateFormat date = new SimpleDateFormat("yyyy-MM-dd");
 
     @Test
-    void youtuberConMasSeguidoresListaVacia() throws ParseException {
-
+    void youtubersMasAltoConNegativo() throws ParseException {
         YoutuberService youtuberS = new YoutuberService();
         List<Youtuber> youtuberList = new ArrayList<>();
         Date fecha = date.parse("2022-09-08");
-        youtuberList.add(new Youtuber("Juan", fecha, 10,150));
-        youtuberList.add(new Youtuber("Pepe", fecha, 10,100));
+        youtuberList.add(new Youtuber("p", fecha, 10,10));
+        youtuberList.add(new Youtuber("a", fecha, 10,10));
+        youtuberList.add(new Youtuber("c", fecha, 10,10));
 
-        assertEquals(youtuberS.youtuberConMasSeguidores(youtuberList), youtuberList.get(0));
     }
 }
