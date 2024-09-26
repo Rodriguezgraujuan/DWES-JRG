@@ -37,6 +37,9 @@ public class YoutuberService {
     }
 
     public List<Youtuber> youtuberTopIngresos3(List<Youtuber> youtubers){
+        if (youtubers.isEmpty()){
+            throw new EmptyList();
+        }
         return youtubers.stream().sorted(Comparator.comparingDouble(Youtuber::estimatedIncome).reversed()).toList();
     }
 

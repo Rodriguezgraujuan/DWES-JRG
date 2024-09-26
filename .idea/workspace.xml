@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c76eb477-86a2-4ef2-8243-e0470b530770" name="Changes" comment="Prueba1.3">
+    <list default="true" id="c76eb477-86a2-4ef2-8243-e0470b530770" name="Changes" comment="Prueba1.4">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema2.Practica1/src/main/java/EmptyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema2.Practica1/src/main/java/YoutuberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2.Practica1/src/main/java/YoutuberService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tema2.Practica1/src/test/java/TestYoutuberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2.Practica1/src/test/java/TestYoutuberService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +60,7 @@
       <list>
         <option value="Record" />
         <option value="Class" />
+        <option value="Exception" />
       </list>
     </option>
   </component>
@@ -86,14 +93,26 @@
     "Gradle.DWES-JRG:Tema2.Practica1 [:Tema2.Practica1:YoutuberService.main()].executor": "Run",
     "Gradle.Documents:Tema2.Practica1 [:Tema2.Practica1:App.main()].executor": "Run",
     "Gradle.Documents:Tema2.Practica1 [:Tema2.Practica1:YoutuberService.main()].executor": "Run",
+    "Gradle.TestYoutuberService.mediaVideosListaVacia.executor": "Run",
     "Gradle.TestYoutuberService.youtuberConMasSeguidoresListaVacia.executor": "Debug",
+    "Gradle.TestYoutuberService.youtubers2013No2013.executor": "Run",
+    "Gradle.TestYoutuberService.youtubersMasAltoConNegativo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.codeium.enabled": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/juarodgra2/IdeaProjects/DWES-JRG/Tema2.Practica1/src/main/java",
-    "project.structure.last.edited": "Modules",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/juarodgra2/Documents",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -104,7 +123,31 @@
       <recent name="$PROJECT_DIR$/Tema2.Practica1/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.TestYoutuberService.youtubers2013No2013">
+    <configuration name="TestYoutuberService.mediaVideosListaVacia" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":Tema2.Practica1:test" />
+            <option value="--tests" />
+            <option value="&quot;TestYoutuberService.mediaVideosListaVacia&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="TestYoutuberService.youtuberConMasSeguidoresListaVacia" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -129,6 +172,54 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="TestYoutuberService.youtubers2013No2013" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":Tema2.Practica1:test" />
+            <option value="--tests" />
+            <option value="&quot;TestYoutuberService.youtubers2013No2013&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestYoutuberService.youtubersMasAltoConNegativo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":Tema2.Practica1:test" />
+            <option value="--tests" />
+            <option value="&quot;TestYoutuberService.youtubersMasAltoConNegativo&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,9 +233,20 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestYoutuberService.youtubers2013No2013" />
+        <item itemvalue="Gradle.TestYoutuberService.mediaVideosListaVacia" />
+        <item itemvalue="Gradle.TestYoutuberService.youtubersMasAltoConNegativo" />
         <item itemvalue="Gradle.TestYoutuberService.youtuberConMasSeguidoresListaVacia" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -154,6 +256,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727246424769</updated>
+      <workItem from="1727344625956" duration="216000" />
+      <workItem from="1727349938715" duration="435000" />
+      <workItem from="1727350394483" duration="1144000" />
     </task>
     <task id="LOCAL-00001" summary="Prueba1">
       <option name="closed" value="true" />
@@ -179,8 +284,19 @@
       <option name="project" value="LOCAL" />
       <updated>1727339807340</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Prueba1.4">
+      <option name="closed" value="true" />
+      <created>1727340832964</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727340832964</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
@@ -189,6 +305,7 @@
     <MESSAGE value="Prueba1" />
     <MESSAGE value="Prueba1.2" />
     <MESSAGE value="Prueba1.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prueba1.3" />
+    <MESSAGE value="Prueba1.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prueba1.4" />
   </component>
 </project>
