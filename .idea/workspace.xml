@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c76eb477-86a2-4ef2-8243-e0470b530770" name="Changes" comment="Prueba1.4">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tema2.Practica1/src/main/java/EmptyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema2.Practica2/src/main/java/Animales.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema2.Practica2/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema2.Practica2/src/main/java/ProtectoraDeAnimales.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema2.Practica2/src/main/resources/animales.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2.Practica1/src/main/java/YoutuberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2.Practica1/src/main/java/YoutuberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2.Practica1/src/test/java/TestYoutuberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2.Practica1/src/test/java/TestYoutuberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +59,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Record" />
-        <option value="Class" />
         <option value="Exception" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -76,7 +76,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Rodriguezgraujuan/DWES-JRG.git&quot;,
-    &quot;accountId&quot;: &quot;acc872cc-d5ab-4460-8ab4-1f0e500ae4a8&quot;
+    &quot;accountId&quot;: &quot;dfcc1383-8269-4d47-b7a2-cbf015693920&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -88,33 +88,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.DWES-JRG:Tema2.Practica1 [:Tema2.Practica1:YoutuberService.main()].executor": "Run",
-    "Gradle.Documents:Tema2.Practica1 [:Tema2.Practica1:App.main()].executor": "Run",
-    "Gradle.Documents:Tema2.Practica1 [:Tema2.Practica1:YoutuberService.main()].executor": "Run",
-    "Gradle.TestYoutuberService.mediaVideosListaVacia.executor": "Run",
-    "Gradle.TestYoutuberService.youtuberConMasSeguidoresListaVacia.executor": "Debug",
-    "Gradle.TestYoutuberService.youtubers2013No2013.executor": "Run",
-    "Gradle.TestYoutuberService.youtubersMasAltoConNegativo.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.codeium.enabled": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/juarodgra2/Documents",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.DWES-JRG:Tema2.Practica1 [:Tema2.Practica1:YoutuberService.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Documents:Tema2.Practica1 [:Tema2.Practica1:App.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Documents:Tema2.Practica1 [:Tema2.Practica1:YoutuberService.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TestYoutuberService.mediaVideosListaVacia.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TestYoutuberService.youtuberConMasSeguidoresListaVacia.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.TestYoutuberService.youtubers2013No2013.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TestYoutuberService.youtubersMasAltoConNegativo.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/juarodgra2/Documents&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Tema2.Practica1/src/main/java" />
@@ -221,11 +221,13 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
+      <module name="DWES-JRG" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="DWES-JRG" />
       <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -259,6 +261,8 @@
       <workItem from="1727344625956" duration="216000" />
       <workItem from="1727349938715" duration="435000" />
       <workItem from="1727350394483" duration="1144000" />
+      <workItem from="1727459292661" duration="986000" />
+      <workItem from="1727509844482" duration="1403000" />
     </task>
     <task id="LOCAL-00001" summary="Prueba1">
       <option name="closed" value="true" />
@@ -307,5 +311,9 @@
     <MESSAGE value="Prueba1.3" />
     <MESSAGE value="Prueba1.4" />
     <option name="LAST_COMMIT_MESSAGE" value="Prueba1.4" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
