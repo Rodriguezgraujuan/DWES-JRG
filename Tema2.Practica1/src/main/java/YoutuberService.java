@@ -61,17 +61,23 @@ public class YoutuberService {
 
 
 /*
-    public void escribirFichero(Path fichero){
+    public void escribirFichero(Path fichero, List<Youtuber> youtubers){
         try (FileOutputStream fos = new FileOutputStream(fichero.toFile());
              ObjectOutputStream oos = new ObjectOutputStream(fos)) {
-
-            Youtuber youtuber = new Youtuber("Juan Palomo",  25, 1400);
-            oos.writeObject(youtuber);
+            youtubers.forEach(p-> {
+                try {
+                    oos.writeObject(p);
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
+            });
         } catch (Exception e) {
             e.printStackTrace(System.out);
         }
     }
-*/
+    */
+
+
     public void leerFichero(Path fichero, List<Youtuber> youtubers) {
         try {
             List<String> archivoLeido = Files.readAllLines(fichero);
