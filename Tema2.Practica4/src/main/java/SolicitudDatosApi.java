@@ -1,3 +1,4 @@
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.BufferedReader;
@@ -7,7 +8,7 @@ import java.net.URL;
 import java.util.List;
 
 public class SolicitudDatosApi {
-    private static final String BASE_URL = "https://pokeapi.co/api/v2/pokemon?limit=20";  // Limitar a los primeros 20
+    private static final String BASE_URL = "https://pokeapi.co/api/v2/pokemon/";
 
     // Metodo para hacer la solicitud GET a la API
     private String getApiData(String urlString) throws Exception {
@@ -55,6 +56,5 @@ public class SolicitudDatosApi {
         // Deserializamos el JSON del Pokémon en un objeto Pokémon
         return objectMapper.readValue(jsonResponse, PokemonDetallado.class);
     }
-
 
 }
