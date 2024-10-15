@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c76eb477-86a2-4ef2-8243-e0470b530770" name="Changes" comment="Prueba2">
+    <list default="true" id="c76eb477-86a2-4ef2-8243-e0470b530770" name="Changes" comment="Prueba3">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema2.Practica4/src/main/java/ListaPokemons.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2.Practica4/src/main/java/ListaPokemons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema2.Practica4/src/main/java/SolicitudDatosApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2.Practica4/src/main/java/SolicitudDatosApi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +73,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Rodriguezgraujuan/DWES-JRG.git&quot;,
-    &quot;accountId&quot;: &quot;dfcc1383-8269-4d47-b7a2-cbf015693920&quot;
+    &quot;accountId&quot;: &quot;e6dac5b9-656d-4ca6-b8c9-9d7957ccd83a&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -82,35 +85,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App.executor": "Run",
-    "Gradle.DWES-JRG:Tema2.Practica1 [:Tema2.Practica1:YoutuberService.main()].executor": "Run",
-    "Gradle.Documents:Tema2.Practica1 [:Tema2.Practica1:App.main()].executor": "Run",
-    "Gradle.Documents:Tema2.Practica1 [:Tema2.Practica1:YoutuberService.main()].executor": "Run",
-    "Gradle.TestYoutuberService.mediaVideosListaVacia.executor": "Run",
-    "Gradle.TestYoutuberService.youtuberConMasSeguidoresListaVacia.executor": "Debug",
-    "Gradle.TestYoutuberService.youtubers2013No2013.executor": "Run",
-    "Gradle.TestYoutuberService.youtubersMasAltoConNegativo.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.codeium.enabled": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Juan/IdeaProjects",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DWES-JRG:Tema2.Practica1 [:Tema2.Practica1:YoutuberService.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Documents:Tema2.Practica1 [:Tema2.Practica1:App.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Documents:Tema2.Practica1 [:Tema2.Practica1:YoutuberService.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TestYoutuberService.mediaVideosListaVacia.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TestYoutuberService.youtuberConMasSeguidoresListaVacia.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.TestYoutuberService.youtubers2013No2013.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TestYoutuberService.youtubersMasAltoConNegativo.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/juarodgra2/Documents/Tema2.Practica3/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Tema2.Practica3/src/main/resources" />
@@ -121,7 +123,7 @@
       <recent name="$PROJECT_DIR$/Tema2.Practica1/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TestYoutuberService.mediaVideosListaVacia">
+  <component name="RunManager">
     <configuration name="TestYoutuberService.mediaVideosListaVacia" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -218,6 +220,19 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="DWES-JRG" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="DWES-JRG" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.TestYoutuberService.mediaVideosListaVacia" />
@@ -251,9 +266,7 @@
       <workItem from="1728541313825" duration="8671000" />
       <workItem from="1728557710357" duration="2392000" />
       <workItem from="1728560151311" duration="346000" />
-      <workItem from="1728735167666" duration="177000" />
-      <workItem from="1728735348530" duration="43000" />
-      <workItem from="1728735405850" duration="21000" />
+      <workItem from="1728987963700" duration="3075000" />
     </task>
     <task id="LOCAL-00001" summary="Prueba1">
       <option name="closed" value="true" />
