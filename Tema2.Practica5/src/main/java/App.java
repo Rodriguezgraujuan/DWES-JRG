@@ -41,6 +41,13 @@ public class App {
                 case 5:
                     appService.mostrarMediaEstudiante(estudiantes, estudiante_asignatura);
                     break;
+                case 6:
+                    appService.estudiantesPorCasa(casas,estudiantes);
+                    break;
+                case 7:
+                    in.nextLine();
+                    appService.estudiantesMatriculaEspecifica(estudiantes, asignaturas, estudiante_asignatura);
+                    break;
                 case 11:
                     condition = false;
                     break;
@@ -56,6 +63,8 @@ public class App {
         System.out.println("3. Mostrar mascotas de un estudiante");
         System.out.println("4. Mostrar estudiantes sin mascotas");
         System.out.println("5. Mostrar media de notas de un estudiante");
+        System.out.println("6. Mostrar estudiantes por casa");
+        System.out.println("7. Mostrar estudiantes matriculadas en una asignatura");
         System.out.println("11. Salir");
     }
 }

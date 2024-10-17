@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 import java.util.Scanner;
 
 public class AppService {
@@ -38,5 +39,33 @@ public class AppService {
         }else {
             System.out.println("Estudiante no encontrado");
         }
+    }
+
+    public void estudiantesPorCasa(List<Casa> casas, List<Estudiante> estudiantes){
+        casas.forEach(casa -> {
+            System.out.println(casa.getNombre_casa() + ":");
+            estudiantes.stream().filter(est -> est.getId_casa() == casa.getId_casa()).forEach(System.out::println);
+        });
+    }
+
+    public void numeroEstudiantesPorCasa(List<Estudiante> estudiantes, List<Casa> casas){
+        casas.forEach(casa -> {
+            System.out.println(casa.getNombre_casa() + ": " + estudiantes.stream().filter(est -> est.getId_casa() == casa.getId_casa()).count());
+        });
+    }
+
+    public void estudiantesMatriculaEspecifica(List<Estudiante> estudiantes, List<Asignatura> asignaturas, List<Estudiante_Asignatura> estudianteAsignaturas){
+        System.out.println("Introduce la asignatura");
+        String asignatura = in.nextLine();
+        int id_asign= asignaturas.stream().filter(asig -> asig.getNombre_asignatura().equals(asignatura)).findFirst().get().getId_asignatura();
+        List<Integer> id_Estudiantes = new ArrayList<>();
+
+        for (Estudiante_Asignatura ea: estudianteAsignaturas){
+            if (id_asign==ea.getId_asignatura()) {
+                id_Estudiantes.add(ea.getId_estudiante());
+            }
+        }
+
+        estudiantes.stream().filter(p->id_Estudiantes.contains(p.getId_estudiante())).forEach(System.out::println);
     }
 }
