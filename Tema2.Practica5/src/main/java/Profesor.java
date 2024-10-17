@@ -16,4 +16,15 @@ public class Profesor {
     private String apellido;
     private int id_asignatura;
     private Date fecha_inicio;
+
+    @Override
+    public String toString() {
+        return "Profesor{" +
+                "id_profesor=" + id_profesor +
+                ", nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                ", id_asignatura=" + id_asignatura +
+                ", fecha_inicio=" + fecha_inicio +
+                '}';
+    }
 }

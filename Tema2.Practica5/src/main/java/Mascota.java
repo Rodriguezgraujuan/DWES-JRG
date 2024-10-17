@@ -12,4 +12,14 @@ public class Mascota {
     private String nombre_mascota;
     private String especie;
     private int id_estudiante;
+
+    @Override
+    public String toString() {
+        return "Mascota{" +
+                "id_mascota=" + id_mascota +
+                ", nombre_mascota='" + nombre_mascota + '\'' +
+                ", especie='" + especie + '\'' +
+                ", id_estudiante=" + id_estudiante +
+                '}';
+    }
 }
