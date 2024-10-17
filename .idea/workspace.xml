@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c76eb477-86a2-4ef2-8243-e0470b530770" name="Changes" comment="Prueba3">
+    <list default="true" id="c76eb477-86a2-4ef2-8243-e0470b530770" name="Changes" comment="Prueba4 fin fin">
+      <change afterPath="$PROJECT_DIR$/Tema2.Practica5/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema2.Practica5/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema2.Practica5/src/main/java/Asignatura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema2.Practica5/src/main/java/BBDDService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema2.Practica5/src/main/java/Casa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema2.Practica5/src/main/java/Estudiante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema2.Practica5/src/main/java/Estudiante_Asignatura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema2.Practica5/src/main/java/Mascota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema2.Practica5/src/main/java/Profesor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2.Practica4/src/main/java/ListaPokemons.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2.Practica4/src/main/java/ListaPokemons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2.Practica4/src/main/java/SolicitudDatosApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2.Practica4/src/main/java/SolicitudDatosApi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,7 +273,9 @@
       <workItem from="1728541313825" duration="8671000" />
       <workItem from="1728557710357" duration="2392000" />
       <workItem from="1728560151311" duration="346000" />
-      <workItem from="1728987963700" duration="3075000" />
+      <workItem from="1728987963700" duration="3345000" />
+      <workItem from="1729072004585" duration="461000" />
+      <workItem from="1729151144954" duration="4288000" />
     </task>
     <task id="LOCAL-00001" summary="Prueba1">
       <option name="closed" value="true" />
@@ -316,7 +325,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728549089303</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Prueba4 fin fin">
+      <option name="closed" value="true" />
+      <created>1728993808967</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728993808967</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +349,8 @@
     <MESSAGE value="Prueba1.4" />
     <MESSAGE value="Prueba1 escritura" />
     <MESSAGE value="Prueba2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prueba2" />
+    <MESSAGE value="Prueba4 fin fin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prueba4 fin fin" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
