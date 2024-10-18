@@ -1,3 +1,5 @@
+import entities.*;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
@@ -36,7 +38,7 @@ public class AppService {
             }
             System.out.println(Math.round(notas.stream().mapToDouble(Double::doubleValue).average().getAsDouble()));
         }else {
-            System.out.println("Estudiante no encontrado");
+            System.out.println("entities.Estudiante no encontrado");
         }
     }
 
@@ -76,9 +78,9 @@ public class AppService {
             System.out.println("Introduce el nuevo aula de la asignatura");
             String nuevoAula = in.nextLine();
             asignaturaAModificar.setAula(nuevoAula);
-            System.out.println("Asignatura modificada");
+            System.out.println("entities.Asignatura modificada");
         }else{
-            System.out.println("Asignatura no encontrada");
+            System.out.println("entities.Asignatura no encontrada");
         }
     }
 
@@ -91,9 +93,9 @@ public class AppService {
             int id_est = estudiantes.stream().filter(est -> est.getNombre().equals(nombre)).findFirst().get().getId_estudiante();
             int id_asig = asignaturas.stream().filter(asig -> asig.getNombre_asignatura().equals(asignatura)).findFirst().get().getId_asignatura();
             estudianteAsignaturas.removeIf(ea -> ea.getId_asignatura() == id_asig && ea.getId_estudiante() == id_est);
-            System.out.println("Estudiante desmatriculado");
+            System.out.println("entities.Estudiante desmatriculado");
         }else{
-            System.out.println("Estudiante no encontrado");
+            System.out.println("entities.Estudiante no encontrado");
         }
     }
 
@@ -112,6 +114,6 @@ public class AppService {
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
         Date date = dateFormat.parse(fechaS);
         estudiantes.add(new Estudiante(estudiantes.size()+1, nombre, apellido, casa,anyo, date));
-        System.out.println("Estudiante insertado");
+        System.out.println("entities.Estudiante insertado");
     }
 }

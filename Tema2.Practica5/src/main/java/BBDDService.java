@@ -1,4 +1,5 @@
-import javax.swing.plaf.nimbus.State;
+import entities.*;
+
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;

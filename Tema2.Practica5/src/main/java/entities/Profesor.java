@@ -1,3 +1,5 @@
+package entities;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -9,23 +11,22 @@ import java.util.Date;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Estudiante {
-    private int id_estudiante;
+public class Profesor {
+
+    private int id_profesor;
     private String nombre;
     private String apellido;
-    private int id_casa;
-    private int anyo_curso;
-    private Date fecha_nacimiento;
+    private int id_asignatura;
+    private Date fecha_inicio;
 
     @Override
     public String toString() {
-        return "Estudiante{" +
-                "id_estudiante=" + id_estudiante +
+        return "entities.Profesor{" +
+                "id_profesor=" + id_profesor +
                 ", nombre='" + nombre + '\'' +
                 ", apellido='" + apellido + '\'' +
-                ", id_casa=" + id_casa +
-                ", anyo_curso=" + anyo_curso +
-                ", fecha_nacimiento=" + fecha_nacimiento +
+                ", id_asignatura=" + id_asignatura +
+                ", fecha_inicio=" + fecha_inicio +
                 '}';
     }
 }

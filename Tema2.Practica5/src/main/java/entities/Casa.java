@@ -1,3 +1,5 @@
+package entities;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -16,7 +18,7 @@ public class Casa {
 
     @Override
     public String toString() {
-        return "Casa{" +
+        return "entities.Casa{" +
                 "id_casa=" + id_casa +
                 ", nombre_casa='" + nombre_casa + '\'' +
                 ", fundador='" + fundador + '\'' +

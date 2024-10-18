@@ -1,3 +1,5 @@
+package entities;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -14,7 +16,7 @@ public class Estudiante_Asignatura {
 
     @Override
     public String toString() {
-        return "Estudiante_Asignatura{" +
+        return "entities.Estudiante_Asignatura{" +
                 "id_estudiante=" + id_estudiante +
                 ", id_asignatura=" + id_asignatura +
                 ", calificacion=" + calificacion +

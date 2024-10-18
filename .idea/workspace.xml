@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c76eb477-86a2-4ef2-8243-e0470b530770" name="Changes" comment="Prueba5.3">
+    <list default="true" id="c76eb477-86a2-4ef2-8243-e0470b530770" name="Changes" comment="Prueba5 fin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tema2.Practica5/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2.Practica5/src/main/java/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tema2.Practica5/src/main/java/AppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2.Practica5/src/main/java/AppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema2.Practica5/src/main/java/Asignatura.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2.Practica5/src/main/java/entities/Asignatura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema2.Practica5/src/main/java/BBDDService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2.Practica5/src/main/java/BBDDService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema2.Practica5/src/main/java/Casa.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2.Practica5/src/main/java/entities/Casa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema2.Practica5/src/main/java/Estudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2.Practica5/src/main/java/entities/Estudiante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema2.Practica5/src/main/java/Estudiante_Asignatura.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2.Practica5/src/main/java/entities/Estudiante_Asignatura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema2.Practica5/src/main/java/Mascota.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2.Practica5/src/main/java/entities/Mascota.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema2.Practica5/src/main/java/Profesor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2.Practica5/src/main/java/entities/Profesor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,7 +274,7 @@
       <workItem from="1729072004585" duration="461000" />
       <workItem from="1729151144954" duration="5078000" />
       <workItem from="1729158706321" duration="6636000" />
-      <workItem from="1729232483591" duration="4898000" />
+      <workItem from="1729232483591" duration="6601000" />
     </task>
     <task id="LOCAL-00001" summary="Prueba1">
       <option name="closed" value="true" />
@@ -349,7 +356,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729165098471</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Prueba5 fin">
+      <option name="closed" value="true" />
+      <created>1729237469945</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1729237469945</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +384,8 @@
     <MESSAGE value="Prueba5.1" />
     <MESSAGE value="Prueba5.2" />
     <MESSAGE value="Prueba5.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prueba5.3" />
+    <MESSAGE value="Prueba5 fin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prueba5 fin" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

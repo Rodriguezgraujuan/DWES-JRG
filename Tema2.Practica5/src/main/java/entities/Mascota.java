@@ -1,3 +1,5 @@
+package entities;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -15,7 +17,7 @@ public class Mascota {
 
     @Override
     public String toString() {
-        return "Mascota{" +
+        return "entities.Mascota{" +
                 "id_mascota=" + id_mascota +
                 ", nombre_mascota='" + nombre_mascota + '\'' +
                 ", especie='" + especie + '\'' +
