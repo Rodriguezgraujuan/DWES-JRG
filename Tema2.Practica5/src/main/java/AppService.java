@@ -1,7 +1,6 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
-import java.util.Scanner;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 public class AppService {
     static Scanner in = new Scanner(System.in);
@@ -67,5 +66,52 @@ public class AppService {
         }
 
         estudiantes.stream().filter(p->id_Estudiantes.contains(p.getId_estudiante())).forEach(System.out::println);
+    }
+
+    public void modificarAsignatura(List<Asignatura> asignaturas){
+        System.out.println("Introduce el nombre de la asignatura a modificar");
+        String asignatura = in.nextLine();
+        if (asignaturas.stream().anyMatch(asig -> asig.getNombre_asignatura().equals(asignatura))) {
+            Asignatura asignaturaAModificar = asignaturas.stream().filter(asig -> asig.getNombre_asignatura().equals(asignatura)).findFirst().get();
+            System.out.println("Introduce el nuevo aula de la asignatura");
+            String nuevoAula = in.nextLine();
+            asignaturaAModificar.setAula(nuevoAula);
+            System.out.println("Asignatura modificada");
+        }else{
+            System.out.println("Asignatura no encontrada");
+        }
+    }
+
+    public void desmatricularEstudiante(List<Estudiante> estudiantes, List<Estudiante_Asignatura> estudianteAsignaturas, List<Asignatura> asignaturas) {
+        System.out.println("Introduce el nombre del estudiante");
+        String nombre = in.nextLine();
+        System.out.println("Introduce el nombre de la asignatura");
+        String asignatura = in.nextLine();
+        if (estudiantes.stream().anyMatch(est -> est.getNombre().equals(nombre))) {
+            int id_est = estudiantes.stream().filter(est -> est.getNombre().equals(nombre)).findFirst().get().getId_estudiante();
+            int id_asig = asignaturas.stream().filter(asig -> asig.getNombre_asignatura().equals(asignatura)).findFirst().get().getId_asignatura();
+            estudianteAsignaturas.removeIf(ea -> ea.getId_asignatura() == id_asig && ea.getId_estudiante() == id_est);
+            System.out.println("Estudiante desmatriculado");
+        }else{
+            System.out.println("Estudiante no encontrado");
+        }
+    }
+
+    public void insertarNuevoEstudiante(List<Estudiante> estudiantes) throws ParseException {
+        System.out.println("Introduce el nombre");
+        String nombre = in.nextLine();
+        System.out.println("Introduce el apellido");
+        String apellido = in.nextLine();
+        System.out.println("Introduce la id_casa");
+        int casa = in.nextInt();
+        System.out.println("Introduce el anyo_curso");
+        int anyo = in.nextInt();
+        System.out.println("Introduce la fecha_nacimiento entre -");
+        in.nextLine();
+        String fechaS = in.nextLine();
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+        Date date = dateFormat.parse(fechaS);
+        estudiantes.add(new Estudiante(estudiantes.size()+1, nombre, apellido, casa,anyo, date));
+        System.out.println("Estudiante insertado");
     }
 }
