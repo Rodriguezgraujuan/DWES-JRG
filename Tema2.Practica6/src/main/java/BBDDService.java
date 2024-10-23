@@ -82,7 +82,7 @@ public class BBDDService {
         return estudianteCasas;
     }
 
-    public void estudiantesSinMascotas() throws SQLException {
+    public void estudiantesSinMascotas() {
         try (Connection conexion = DriverManager.getConnection(urlConexion, usuario, password)) {
             conexion.setAutoCommit(false);
 
@@ -109,7 +109,7 @@ public class BBDDService {
         }
     }
 
-    public void calcularPromedioNotas() throws SQLException {
+    public void calcularPromedioNotas() {
         try (Connection conexion = DriverManager.getConnection(urlConexion, usuario, password)) {
             conexion.setAutoCommit(false);
 
@@ -157,7 +157,7 @@ public class BBDDService {
         return estudiantesQuinto;
     }
 
-    public void estudiantesMejoresCalificaciones(String asignatura) throws SQLException {
+    public void estudiantesMejoresCalificaciones(String asignatura) {
         try (Connection conexion = DriverManager.getConnection(urlConexion, usuario, password)) {
             conexion.setAutoCommit(false);
 
