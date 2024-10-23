@@ -108,4 +108,52 @@ public class BBDDService {
             throw new RuntimeException(e);
         }
     }
+
+    public void calcularPromedioNotas() throws SQLException {
+        try (Connection conexion = DriverManager.getConnection(urlConexion, usuario, password)) {
+            conexion.setAutoCommit(false);
+
+            String recibirdatosEst = "SELECT Estudiante.id_estudiante, nombre, apellido , AVG(calificacion) AS promedio FROM Estudiante " +
+                    "LEFT JOIN Estudiante_Asignatura ON Estudiante.id_estudiante = Estudiante_Asignatura.id_estudiante " +
+                    "group by Estudiante.id_estudiante,Estudiante.nombre, Estudiante.apellido " +
+                    "order by Estudiante.id_estudiante";
+
+            PreparedStatement consultaEst = conexion.prepareStatement(recibirdatosEst);
+
+            ResultSet resultadosEst = consultaEst.executeQuery();
+
+            while (resultadosEst.next()) {
+                System.out.println(resultadosEst.getString("nombre")+" "+ resultadosEst.getString("apellido")+" "+ Math.round(Float.parseFloat(resultadosEst.getString("promedio"))));
+            }
+
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public List<List<String>> estudiantesQuintoGrado(){
+        List<List<String>> estudiantesQuinto = new ArrayList<>();
+        try (Connection conexion = DriverManager.getConnection(urlConexion, usuario, password)) {
+            conexion.setAutoCommit(false);
+
+            String recibirDatosEst = "SELECT nombre, apellido, nombre_casa FROM Estudiante " +
+                    "INNER JOIN Casa ON Estudiante.id_casa = Casa.id_casa " +
+                    "where año_curso = 5 " +
+                    "Group by Casa.id_casa, nombre, apellido, Estudiante.id_casa " +
+                    "Order by Estudiante.id_casa";
+
+            PreparedStatement consulta = conexion.prepareStatement(recibirDatosEst);
+
+
+            ResultSet resultados = consulta.executeQuery();
+
+            while (resultados.next()) {
+                estudiantesQuinto.add(List.of(resultados.getString("nombre"), resultados.getString("apellido"), resultados.getString("nombre_casa")));
+            }
+
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        return estudiantesQuinto;
+    }
 }

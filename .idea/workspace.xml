@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c76eb477-86a2-4ef2-8243-e0470b530770" name="Changes" comment="Prueba5 fin fin">
-      <change afterPath="$PROJECT_DIR$/Tema2.Practica6/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tema2.Practica6/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tema2.Practica6/src/main/java/BBDDService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c76eb477-86a2-4ef2-8243-e0470b530770" name="Changes" comment="Practica 6.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema2.Practica6/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2.Practica6/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema2.Practica6/src/main/java/BBDDService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2.Practica6/src/main/java/BBDDService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,33 +83,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.DWES-JRG:Tema2.Practica1 [:Tema2.Practica1:YoutuberService.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Documents:Tema2.Practica1 [:Tema2.Practica1:App.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Documents:Tema2.Practica1 [:Tema2.Practica1:YoutuberService.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.TestYoutuberService.mediaVideosListaVacia.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.TestYoutuberService.youtuberConMasSeguidoresListaVacia.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.TestYoutuberService.youtubers2013No2013.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.TestYoutuberService.youtubersMasAltoConNegativo.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/juarodgra2/Documents/Tema2.Practica3/src/main/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "Gradle.DWES-JRG:Tema2.Practica1 [:Tema2.Practica1:YoutuberService.main()].executor": "Run",
+    "Gradle.Documents:Tema2.Practica1 [:Tema2.Practica1:App.main()].executor": "Run",
+    "Gradle.Documents:Tema2.Practica1 [:Tema2.Practica1:YoutuberService.main()].executor": "Run",
+    "Gradle.TestYoutuberService.mediaVideosListaVacia.executor": "Run",
+    "Gradle.TestYoutuberService.youtuberConMasSeguidoresListaVacia.executor": "Debug",
+    "Gradle.TestYoutuberService.youtubers2013No2013.executor": "Run",
+    "Gradle.TestYoutuberService.youtubersMasAltoConNegativo.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/juarodgra2/Documents/Tema2.Practica3/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Tema2.Practica3/src/main/resources" />
@@ -271,7 +268,8 @@
       <workItem from="1729151144954" duration="5078000" />
       <workItem from="1729158706321" duration="6636000" />
       <workItem from="1729232483591" duration="6616000" />
-      <workItem from="1729593060028" duration="5158000" />
+      <workItem from="1729593060028" duration="5477000" />
+      <workItem from="1729665733648" duration="2178000" />
     </task>
     <task id="LOCAL-00001" summary="Prueba1">
       <option name="closed" value="true" />
@@ -369,7 +367,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729241156790</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Practica 6.1">
+      <option name="closed" value="true" />
+      <created>1729598524458</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1729598524458</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,7 +397,8 @@
     <MESSAGE value="Prueba5.3" />
     <MESSAGE value="Prueba5 fin" />
     <MESSAGE value="Prueba5 fin fin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prueba5 fin fin" />
+    <MESSAGE value="Practica 6.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practica 6.1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

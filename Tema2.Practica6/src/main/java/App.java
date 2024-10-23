@@ -27,6 +27,12 @@ public class App {
                 case 4:
                     bBDDService.estudiantesSinMascotas();
                     break;
+                case 5:
+                    bBDDService.calcularPromedioNotas();
+                    break;
+                case 6:
+                    bBDDService.estudiantesQuintoGrado().forEach(System.out::println);
+                    break;
                 case 11:
                     condition = false;
                     break;
@@ -41,6 +47,8 @@ public class App {
         System.out.println("2. Consultar estudiante con sus mascotas");
         System.out.println("3. Consultar estudiantes con mascotas");
         System.out.println("4. Consultar estudiantes sin mascotas");
+        System.out.println("5. Consultar promedio notas de estudiante");
+        System.out.println("6. Consultar estudiantes del quinto grado");
         System.out.println("11. Salir");
     }
 }
