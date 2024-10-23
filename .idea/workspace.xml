@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c76eb477-86a2-4ef2-8243-e0470b530770" name="Changes" comment="Practica 6.1">
+    <list default="true" id="c76eb477-86a2-4ef2-8243-e0470b530770" name="Changes" comment="Practica 6 1-6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tema2.Practica6/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2.Practica6/src/main/java/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tema2.Practica6/src/main/java/BBDDService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2.Practica6/src/main/java/BBDDService.java" afterDir="false" />
@@ -269,7 +269,7 @@
       <workItem from="1729158706321" duration="6636000" />
       <workItem from="1729232483591" duration="6616000" />
       <workItem from="1729593060028" duration="5477000" />
-      <workItem from="1729665733648" duration="2178000" />
+      <workItem from="1729665733648" duration="3558000" />
     </task>
     <task id="LOCAL-00001" summary="Prueba1">
       <option name="closed" value="true" />
@@ -375,7 +375,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729598524458</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Practica 6 1-6">
+      <option name="closed" value="true" />
+      <created>1729667994605</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1729667994605</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,7 +406,8 @@
     <MESSAGE value="Prueba5 fin" />
     <MESSAGE value="Prueba5 fin fin" />
     <MESSAGE value="Practica 6.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practica 6.1" />
+    <MESSAGE value="Practica 6 1-6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practica 6 1-6" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

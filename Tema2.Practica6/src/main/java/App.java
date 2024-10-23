@@ -33,6 +33,16 @@ public class App {
                 case 6:
                     bBDDService.estudiantesQuintoGrado().forEach(System.out::println);
                     break;
+                case 7:
+                    System.out.println("Introduce el nombre de la Asignatura");
+                    in.nextLine();
+                    bBDDService.estudiantesMejoresCalificaciones(in.nextLine());
+                    break;
+                case 8:
+                    System.out.println("Introduce el nombre de la Asignatura");
+                    in.nextLine();
+                    bBDDService.promedioCalificacionesCasa(in.nextLine());
+                    break;
                 case 11:
                     condition = false;
                     break;
@@ -49,6 +59,8 @@ public class App {
         System.out.println("4. Consultar estudiantes sin mascotas");
         System.out.println("5. Consultar promedio notas de estudiante");
         System.out.println("6. Consultar estudiantes del quinto grado");
+        System.out.println("7. Consultar estudiante con mejor calificación");
+        System.out.println("8. Consultar promedio calificación casa");
         System.out.println("11. Salir");
     }
 }

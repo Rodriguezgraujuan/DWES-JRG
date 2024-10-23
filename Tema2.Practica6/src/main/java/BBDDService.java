@@ -156,4 +156,56 @@ public class BBDDService {
         }
         return estudiantesQuinto;
     }
+
+    public void estudiantesMejoresCalificaciones(String asignatura) throws SQLException {
+        try (Connection conexion = DriverManager.getConnection(urlConexion, usuario, password)) {
+            conexion.setAutoCommit(false);
+
+            String recibirdatosEst = "SELECT nombre, apellido, calificacion FROM Estudiante " +
+                    "INNER JOIN Estudiante_Asignatura ON Estudiante.id_estudiante = Estudiante_Asignatura.id_estudiante " +
+                    "INNER JOIN Asignatura ON Estudiante_Asignatura.id_asignatura = Asignatura.id_asignatura " +
+                    "where Asignatura.nombre_asignatura = ? " +
+                    "order by calificacion desc " +
+                    "limit 3";
+
+            PreparedStatement consultaEst = conexion.prepareStatement(recibirdatosEst);
+            consultaEst.setString(1, asignatura);
+
+            ResultSet resultadosEst = consultaEst.executeQuery();
+
+            while (resultadosEst.next()) {
+                System.out.println(resultadosEst.getString("nombre")+" "+ resultadosEst.getString("apellido")+" "+ resultadosEst.getString("calificacion")+" "+ asignatura);
+            }
+
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void promedioCalificacionesCasa(String asignatura){
+        try (Connection conexion = DriverManager.getConnection(urlConexion, usuario, password)) {
+            conexion.setAutoCommit(false);
+
+            String recibirDatos="SELECT AVG(calificacion) AS promedio, nombre_casa FROM Estudiante " +
+                    "INNER JOIN Estudiante_Asignatura ON Estudiante.id_estudiante = Estudiante_Asignatura.id_estudiante " +
+                    "INNER JOIN Asignatura ON Estudiante_Asignatura.id_asignatura = Asignatura.id_asignatura " +
+                    "INNER JOIN Casa ON Estudiante.id_casa = Casa.id_casa " +
+                    "where Asignatura.nombre_asignatura = ? " +
+                    "GROUP BY Casa.nombre_casa, Casa.id_casa " +
+                    "order by Casa.nombre_casa";
+
+            PreparedStatement consulta = conexion.prepareStatement(recibirDatos);
+            consulta.setString(1, asignatura);
+
+            ResultSet resultados = consulta.executeQuery();
+
+            while (resultados.next()) {
+                System.out.println(resultados.getString("nombre_casa")+" "+ Math.round(Float.parseFloat(resultados.getString("promedio"))));
+            }
+
+        }catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
 }
