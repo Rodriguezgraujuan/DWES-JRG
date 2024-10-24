@@ -43,6 +43,12 @@ public class App {
                     in.nextLine();
                     bBDDService.promedioCalificacionesCasa(in.nextLine());
                     break;
+                case 9:
+                    bBDDService.updateCalificaciones();
+                    break;
+                case 10:
+                    bBDDService.desmatriculasEst();
+                    break;
                 case 11:
                     condition = false;
                     break;
@@ -61,6 +67,8 @@ public class App {
         System.out.println("6. Consultar estudiantes del quinto grado");
         System.out.println("7. Consultar estudiante con mejor calificación");
         System.out.println("8. Consultar promedio calificación casa");
+        System.out.println("9. Actualizar calificaciones");
+        System.out.println("10. Desmatricular estudiante");
         System.out.println("11. Salir");
     }
 }

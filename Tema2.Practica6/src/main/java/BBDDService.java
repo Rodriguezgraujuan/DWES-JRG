@@ -208,4 +208,68 @@ public class BBDDService {
         }
     }
 
+    public void updateCalificaciones(){
+        try (Connection conexion = DriverManager.getConnection(urlConexion, usuario, password)) {
+            conexion.setAutoCommit(true);
+
+            String updateCalif = "UPDATE Estudiante_Asignatura " +
+                                "SET calificacion = calificacion*1.1 " +
+                                "WHERE id_estudiante IN (" +
+                                    "SELECT id_estudiante " +
+                                    "FROM Estudiante " +
+                                    "Where año_curso = 5 " +
+                                    ")";
+
+            PreparedStatement consulta = conexion.prepareStatement(updateCalif);
+            consulta.executeUpdate();
+
+
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        //notasEst();
+    }
+
+    public void desmatriculasEst(){
+        try (Connection conexion = DriverManager.getConnection(urlConexion, usuario, password)) {
+            conexion.setAutoCommit(false);
+
+            String updateCalif = "DELETE FROM Estudiante_Asignatura " +
+                    "WHERE calificacion<5.0 AND id_asignatura IN (" +
+                    "SELECT id_asignatura " +
+                    "FROM Asignatura " +
+                    "WHERE obligatoria IS FALSE" +
+                    ")";
+
+            PreparedStatement consulta = conexion.prepareStatement(updateCalif);
+            consulta.executeUpdate();
+
+
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        //notasEst();
+    }
+
+    /*private void notasEst(){
+        try (Connection conexion = DriverManager.getConnection(urlConexion, usuario, password)) {
+            conexion.setAutoCommit(false);
+
+            String consultar = "SELECT * FROM Estudiante_Asignatura ";
+
+            PreparedStatement consulta = conexion.prepareStatement(consultar);
+            consulta.executeQuery();
+
+            ResultSet resultados = consulta.executeQuery();
+
+            while (resultados.next()) {
+                System.out.println(resultados.getString("id_estudiante")+" "+ resultados.getString("id_asignatura")+" "+ resultados.getString("calificacion"));
+            }
+
+
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }*/
+
 }
