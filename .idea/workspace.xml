@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c76eb477-86a2-4ef2-8243-e0470b530770" name="Changes" comment="Practica 6 6-8 0 warning">
+    <list default="true" id="c76eb477-86a2-4ef2-8243-e0470b530770" name="Changes" comment="6Practica 8-10">
+      <change afterPath="$PROJECT_DIR$/DummySocialNetwork/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DummySocialNetwork/src/main/java/DummySocialNetwork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DummySocialNetwork/src/main/java/MongoDBManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DummySocialNetwork/src/main/java/entitites/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DummySocialNetwork/src/main/java/entitites/Profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DummySocialNetwork/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2.Practica6/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2.Practica6/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2.Practica6/src/main/java/BBDDService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2.Practica6/src/main/java/BBDDService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +103,7 @@
     &quot;com.codeium.enabled&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/juarodgra2/Documents/Tema2.Practica3/src/main/resources&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/juarodgra2/Baixades/MongoBooks&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -112,15 +118,17 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DummySocialNetwork/src/main/java" />
       <recent name="$PROJECT_DIR$/Tema2.Practica3/src/main/resources" />
       <recent name="$PROJECT_DIR$/Tema2.Practica2/src/main/resources" />
       <recent name="$PROJECT_DIR$/Tema2.Practica1/src/main/java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DummySocialNetwork/src/main/resources/" />
       <recent name="$PROJECT_DIR$/Tema2.Practica1/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.TestYoutuberService.mediaVideosListaVacia">
     <configuration name="TestYoutuberService.mediaVideosListaVacia" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -270,7 +278,11 @@
       <workItem from="1729232483591" duration="6616000" />
       <workItem from="1729593060028" duration="5477000" />
       <workItem from="1729665733648" duration="3745000" />
-      <workItem from="1729750707859" duration="5151000" />
+      <workItem from="1729750707859" duration="5446000" />
+      <workItem from="1730108845114" duration="5000" />
+      <workItem from="1730204088910" duration="1409000" />
+      <workItem from="1730206723142" duration="31000" />
+      <workItem from="1730206783094" duration="473000" />
     </task>
     <task id="LOCAL-00001" summary="Prueba1">
       <option name="closed" value="true" />
@@ -400,7 +412,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729669472148</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="6Practica 8-10">
+      <option name="closed" value="true" />
+      <created>1729755996301</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1729755996301</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,7 +446,8 @@
     <MESSAGE value="Practica 6 1-6" />
     <MESSAGE value="Practica 6 6-8" />
     <MESSAGE value="Practica 6 6-8 0 warning" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practica 6 6-8 0 warning" />
+    <MESSAGE value="6Practica 8-10" />
+    <option name="LAST_COMMIT_MESSAGE" value="6Practica 8-10" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
