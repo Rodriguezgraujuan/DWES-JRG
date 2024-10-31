@@ -1,12 +1,14 @@
 package entitites;
 import lombok.Getter;
 import lombok.Setter;
+import org.bson.codecs.pojo.annotations.BsonCreator;
 import org.bson.codecs.pojo.annotations.BsonDiscriminator;
 import org.bson.codecs.pojo.annotations.BsonId;
 import org.bson.codecs.pojo.annotations.BsonProperty;
 import org.bson.types.ObjectId;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
@@ -14,6 +16,24 @@ import java.util.Objects;
 @Setter
 @BsonDiscriminator(value="profile", key="_cls")
 public class  Profile {
+
+    @BsonCreator
+    public Profile(@BsonProperty(value="name")String name, @BsonProperty(value="status")String status,@BsonProperty(value="age")int age) {
+        this.name = name;
+        this.status = status;
+        this.age = age;
+        this.since = LocalDate.now();
+    }
+
+    public Profile(@BsonProperty(value="name")String name, @BsonProperty(value="status")String status,@BsonProperty(value="age")int age,@BsonProperty(value = "posts")List<Post> posts) {
+        this.name = name;
+        this.status = status;
+        this.age = age;
+        this.since = LocalDate.now();
+        this.posts = posts;
+    }
+
+
     @BsonId
     ObjectId id;
 
