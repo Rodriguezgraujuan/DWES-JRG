@@ -33,7 +33,7 @@ public class  Profile {
         this.posts = posts;
     }
 
-
+    //soy Juan
     @BsonId
     ObjectId id;
 
@@ -47,6 +47,8 @@ public class  Profile {
     LocalDate since; // fecha de creación del perfil
     @BsonProperty(value="posts")
     List<Post> posts; // lista de amigos del perfil
+
+
     @Override
     public String toString() {
         String string = "-".repeat(20) + "\n" + name + "\nUsuario desde: " + since + "\nEstado:" + status + "\nEdad: " + age + " años\n";

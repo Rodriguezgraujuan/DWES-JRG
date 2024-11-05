@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c76eb477-86a2-4ef2-8243-e0470b530770" name="Changes" comment="p7 PROPERTIES">
+    <list default="true" id="c76eb477-86a2-4ef2-8243-e0470b530770" name="Changes" comment="p7 1-4 10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DummySocialNetwork/src/main/java/DummySocialNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/DummySocialNetwork/src/main/java/DummySocialNetwork.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DummySocialNetwork/src/main/java/MongoDBManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/DummySocialNetwork/src/main/java/MongoDBManager.java" afterDir="false" />
@@ -280,7 +280,9 @@
       <workItem from="1730204088910" duration="1409000" />
       <workItem from="1730206723142" duration="31000" />
       <workItem from="1730206783094" duration="501000" />
-      <workItem from="1730360968343" duration="6070000" />
+      <workItem from="1730360968343" duration="6349000" />
+      <workItem from="1730805583894" duration="232000" />
+      <workItem from="1730805874408" duration="5790000" />
     </task>
     <task id="LOCAL-00001" summary="Prueba1">
       <option name="closed" value="true" />
@@ -426,7 +428,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730207276340</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="p7 1-4 10">
+      <option name="closed" value="true" />
+      <created>1730367308543</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1730367308543</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +464,15 @@
     <MESSAGE value="Practica 6 6-8 0 warning" />
     <MESSAGE value="6Practica 8-10" />
     <MESSAGE value="p7 PROPERTIES" />
-    <option name="LAST_COMMIT_MESSAGE" value="p7 PROPERTIES" />
+    <MESSAGE value="p7 1-4 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="p7 1-4 10" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="entitites.Profile" memberName="posts" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

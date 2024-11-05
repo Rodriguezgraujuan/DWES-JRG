@@ -32,6 +32,11 @@ public class Post {
     @BsonProperty(value = "comments")
     List<String> comments; // lista de comentarios del post
 
+    public void addComment(String comment) {
+        if (comments == null) comments = new java.util.ArrayList<>();
+        comments.add(comment);
+    }
+
     @Override
     public String toString() {
         String string = title + "\n" + publishedDate + "\n" + likes + " likes\n" + content + "\n";

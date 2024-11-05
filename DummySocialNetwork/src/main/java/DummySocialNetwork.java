@@ -32,7 +32,7 @@ public class DummySocialNetwork {
                     commentPost(mongoDBManager);
                     break;
                 case 8:
-                    mongoDBManager.showProfileStats();
+                    showStatsProfile(mongoDBManager);
                     break;
                 case 9:
                     mongoDBManager.showAllStats();
@@ -118,5 +118,11 @@ public class DummySocialNetwork {
         System.out.print("Introduce el nombre del perfil:");
         String profileName = scanner.nextLine();
         mongoDBManager.showPosts(profileName);
+    }
+
+    private static void showStatsProfile(MongoDBManager mongoDBManager) {
+        System.out.print("Introduce el nombre del perfil:");
+        String profileName = scanner.nextLine();
+        mongoDBManager.showProfileStats(profileName);
     }
 }
