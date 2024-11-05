@@ -187,7 +187,7 @@ public class MongoDBManager {
         profilesList.stream().limit(3).forEach(pro-> System.out.println(pro.getName()));
     }
 
-    public List<Profile> createCopyList() {
+    private List<Profile> createCopyList() {
         List<Profile> profilesList = new ArrayList<>();
         for (Profile profile : profiles.find()) {
             profilesList.add(profile);
