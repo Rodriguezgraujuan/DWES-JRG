@@ -177,13 +177,17 @@ public class MongoDBManager {
             }
         }
         List<Profile> profilesList = createCopyList();
-        profilesList.sort(Comparator.comparingInt(Profile::getAge));
 
         System.out.println("Numero total de perfiles: " + profiles.countDocuments());
         System.out.println("Total de publicaciones: " + totalPu);
         System.out.println("Total de likes: " + totalLikes);
         System.out.println("Total de comentarios: " + totalCom);
 
+        profilesList.sort(Comparator.comparingInt(Profile::getAge));
+        profilesList.stream().limit(3).forEach(pro-> System.out.println(pro.getName()));
+
+        System.out.println("Los tres perfiles con mas publicaciones");
+        profilesList.sort(Comparator.comparingInt(Profile::getSize));
         profilesList.stream().limit(3).forEach(pro-> System.out.println(pro.getName()));
     }
 
@@ -192,7 +196,6 @@ public class MongoDBManager {
         for (Profile profile : profiles.find()) {
             profilesList.add(profile);
         }
-        profilesList.forEach(System.out::println);
         return profilesList;
     }
 }

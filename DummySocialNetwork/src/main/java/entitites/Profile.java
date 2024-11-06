@@ -48,6 +48,10 @@ public class  Profile {
     @BsonProperty(value="posts")
     List<Post> posts; // lista de amigos del perfil
 
+    public int getSize(){
+        return posts.size();
+    }
+
 
     @Override
     public String toString() {
