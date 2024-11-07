@@ -49,7 +49,11 @@ public class  Profile {
     List<Post> posts; // lista de amigos del perfil
 
     public int getSize(){
-        return posts.size();
+        int tamano = 0;
+        if(posts!=null){
+            tamano=posts.size();
+        };
+        return tamano;
     }
 
 

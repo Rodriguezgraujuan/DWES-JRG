@@ -187,7 +187,7 @@ public class MongoDBManager {
         profilesList.stream().limit(3).forEach(pro-> System.out.println(pro.getName()));
 
         System.out.println("Los tres perfiles con mas publicaciones");
-        profilesList.sort(Comparator.comparingInt(Profile::getSize));
+        profilesList.sort(Comparator.comparingInt(Profile::getSize).reversed());
         profilesList.stream().limit(3).forEach(pro-> System.out.println(pro.getName()));
     }
 
