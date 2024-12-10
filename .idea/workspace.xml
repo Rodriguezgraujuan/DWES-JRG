@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c76eb477-86a2-4ef2-8243-e0470b530770" name="Changes" comment="p7 Complete">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DummySocialNetwork/src/main/java/DummySocialNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/DummySocialNetwork/src/main/java/DummySocialNetwork.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +97,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;com.codeium.enabled&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-19 (2)&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/juarodgra2/Baixades/MongoBooks&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -122,7 +124,7 @@
       <recent name="$PROJECT_DIR$/Tema2.Practica1/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.TestYoutuberService.mediaVideosListaVacia">
     <configuration name="TestYoutuberService.mediaVideosListaVacia" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -283,7 +285,9 @@
       <workItem from="1730892383915" duration="1836000" />
       <workItem from="1730964065273" duration="1908000" />
       <workItem from="1730965996578" duration="93000" />
-      <workItem from="1730966100263" duration="4926000" />
+      <workItem from="1730966100263" duration="4940000" />
+      <workItem from="1731410567162" duration="1022000" />
+      <workItem from="1731655327105" duration="204000" />
     </task>
     <task id="LOCAL-00001" summary="Prueba1">
       <option name="closed" value="true" />
@@ -469,7 +473,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730964799706</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="p7 Complete">
+      <option name="closed" value="true" />
+      <created>1730972361568</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1730972361568</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

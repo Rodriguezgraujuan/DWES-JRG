@@ -1,0 +1,22 @@
+<protectoraDeAnimales>
+    <animales>
+        <animal>
+            <id>001</id>
+            <nombre>Luna</nombre>
+            <especie>Perro</especie>
+            <edad>3</edad>
+            <sexo>Hembra</sexo>
+            <fechaIngreso>2024-01-15</fechaIngreso>
+            <adoptado>true</adoptado>
+        </animal>
+        <animal>
+            <id>002</id>
+            <nombre>Miau</nombre>
+            <especie>Gato</especie>
+            <edad>2</edad>
+            <sexo>Macho</sexo>
+            <fechaIngreso>2024-01-15</fechaIngreso>
+            <adoptado>false</adoptado>
+        </animal>
+    </animales>
+</protectoraDeAnimales>

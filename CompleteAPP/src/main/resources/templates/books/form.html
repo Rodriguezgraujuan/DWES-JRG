@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{layout}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title layout:fragment="pageTitle">Book Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div layout:fragment="content">
+    <h1 th:text="${book.id != null ? 'Edit Book' : 'Create Book'}"></h1>
+    <form th:action="@{/books/save}" th:object="${book}" method="post">
+        <input type="hidden" th:field="*{id}">
+        <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+            <input type="text" id="title" class="form-control" th:field="*{title}" required>
+        </div>Q
+        <div class="mb-3">
+            <label for="isbn" class="form-label">ISBN</label>
+            <input type="text" id="isbn" class="form-control" th:field="*{isbn}" required>
+        </div>
+        <div class="mb-3">
+            <label for="pages" class="form-label">Pages</label>
+            <input type="number" id="pages" class="form-control" th:field="*{pages}" required>
+        </div>
+        <div class="mb-3">
+            <label for="price" class="form-label">Price</label>
+            <input type="number" step="0.01" id="price" class="form-control" th:field="*{price}" required>
+        </div>
+        <div class="mb-3">
+            <label for="author" class="form-label">Author</label>
+            <select id="author" class="form-select" th:field="*{author.id}" required>
+                <option th:each="author : ${authors}" th:value="${author.id}" th:text="${author.name}"></option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="publishedDate" class="form-label">Published Date</label>
+            <input type="date" id="publishedDate" class="form-control" th:field="*{publishedDate}" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Save</button>
+        <a href="/books" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

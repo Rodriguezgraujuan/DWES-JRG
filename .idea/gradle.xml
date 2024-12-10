@@ -15,6 +15,10 @@
           </set>
         </option>
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/T3P1" />
+        <option name="gradleJvm" value="corretto-19 (2)" />
+      </GradleProjectSettings>
     </option>
   </component>
 </project>

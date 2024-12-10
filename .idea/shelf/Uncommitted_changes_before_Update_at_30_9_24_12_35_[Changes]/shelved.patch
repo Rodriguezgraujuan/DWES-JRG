@@ -1,0 +1,133 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"c76eb477-86a2-4ef2-8243-e0470b530770\" name=\"Changes\" comment=\"Prueba1.4\">\n      <change afterPath=\"$PROJECT_DIR$/.idea/.name\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/material_theme_project_new.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/Tema2.Practica1/src/main/java/EmptyList.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.gitignore\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gitignore\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Tema2.Practica1/src/main/java/YoutuberService.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Tema2.Practica1/src/main/java/YoutuberService.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Tema2.Practica1/src/test/java/TestYoutuberService.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Tema2.Practica1/src/test/java/TestYoutuberService.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ExternalProjectsData\">\n    <projectState path=\"$PROJECT_DIR$\">\n      <ProjectState />\n    </projectState>\n  </component>\n  <component name=\"ExternalProjectsManager\">\n    <system id=\"GRADLE\">\n      <state>\n        <task path=\"$PROJECT_DIR$/Tema2.Practica1\">\n          <activation />\n        </task>\n        <projects_view>\n          <tree_state>\n            <expand>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"DWES-JRG\" type=\"f1a62948:ProjectNode\" />\n              </path>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"DWES-JRG\" type=\"f1a62948:ProjectNode\" />\n                <item name=\"Tema2.Practica1\" type=\"2d1252cf:ModuleNode\" />\n              </path>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"DWES-JRG\" type=\"f1a62948:ProjectNode\" />\n                <item name=\"Tema2.Practica1\" type=\"2d1252cf:ModuleNode\" />\n                <item name=\"Tasks\" type=\"e4a08cd1:TasksNode\" />\n              </path>\n            </expand>\n            <select />\n          </tree_state>\n        </projects_view>\n      </state>\n    </system>\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Record\" />\n        <option value=\"Class\" />\n        <option value=\"Exception\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\">{\n  &quot;lastFilter&quot;: {\n    &quot;state&quot;: &quot;OPEN&quot;,\n    &quot;assignee&quot;: &quot;Rodriguezgraujuan&quot;\n  }\n}</component>\n  <component name=\"GithubPullRequestsUISettings\">{\n  &quot;selectedUrlAndAccountId&quot;: {\n    &quot;url&quot;: &quot;https://github.com/Rodriguezgraujuan/DWES-JRG.git&quot;,\n    &quot;accountId&quot;: &quot;acc872cc-d5ab-4460-8ab4-1f0e500ae4a8&quot;\n  }\n}</component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 5\n}</component>\n  <component name=\"ProjectId\" id=\"2mYH75ZD4ExC19LfRLlkE61xVEh\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"Gradle.DWES-JRG:Tema2.Practica1 [:Tema2.Practica1:YoutuberService.main()].executor\": \"Run\",\n    \"Gradle.Documents:Tema2.Practica1 [:Tema2.Practica1:App.main()].executor\": \"Run\",\n    \"Gradle.Documents:Tema2.Practica1 [:Tema2.Practica1:YoutuberService.main()].executor\": \"Run\",\n    \"Gradle.TestYoutuberService.mediaVideosListaVacia.executor\": \"Run\",\n    \"Gradle.TestYoutuberService.youtuberConMasSeguidoresListaVacia.executor\": \"Debug\",\n    \"Gradle.TestYoutuberService.youtubers2013No2013.executor\": \"Run\",\n    \"Gradle.TestYoutuberService.youtubersMasAltoConNegativo.executor\": \"Run\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\n    \"com.codeium.enabled\": \"true\",\n    \"git-widget-placeholder\": \"master\",\n    \"kotlin-language-version-configured\": \"true\",\n    \"last_opened_file_path\": \"/home/juarodgra2/Documents\",\n    \"node.js.detected.package.eslint\": \"true\",\n    \"node.js.detected.package.tslint\": \"true\",\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"nodejs_package_manager_path\": \"npm\",\n    \"project.structure.last.edited\": \"Project\",\n    \"project.structure.proportion\": \"0.0\",\n    \"project.structure.side.proportion\": \"0.2\",\n    \"settings.editor.selected.configurable\": \"preferences.pluginManager\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/Tema2.Practica1/src/main/java\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/Tema2.Practica1/src/main/resources\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Gradle.TestYoutuberService.youtubers2013No2013\">\n    <configuration name=\"TestYoutuberService.mediaVideosListaVacia\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\n      <ExternalSystemSettings>\n        <option name=\"executionName\" />\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\n        <option name=\"scriptParameters\" value=\"\" />\n        <option name=\"taskDescriptions\">\n          <list />\n        </option>\n        <option name=\"taskNames\">\n          <list>\n            <option value=\":Tema2.Practica1:test\" />\n            <option value=\"--tests\" />\n            <option value=\"&quot;TestYoutuberService.mediaVideosListaVacia&quot;\" />\n          </list>\n        </option>\n        <option name=\"vmOptions\" />\n      </ExternalSystemSettings>\n      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\n      <DebugAllEnabled>false</DebugAllEnabled>\n      <RunAsTest>true</RunAsTest>\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"TestYoutuberService.youtuberConMasSeguidoresListaVacia\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\n      <ExternalSystemSettings>\n        <option name=\"executionName\" />\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\n        <option name=\"scriptParameters\" value=\"\" />\n        <option name=\"taskDescriptions\">\n          <list />\n        </option>\n        <option name=\"taskNames\">\n          <list>\n            <option value=\":Tema2.Practica1:test\" />\n            <option value=\"--tests\" />\n            <option value=\"&quot;TestYoutuberService.youtuberConMasSeguidoresListaVacia&quot;\" />\n          </list>\n        </option>\n        <option name=\"vmOptions\" />\n      </ExternalSystemSettings>\n      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\n      <DebugAllEnabled>false</DebugAllEnabled>\n      <RunAsTest>true</RunAsTest>\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"TestYoutuberService.youtubers2013No2013\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\n      <ExternalSystemSettings>\n        <option name=\"executionName\" />\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\n        <option name=\"scriptParameters\" value=\"\" />\n        <option name=\"taskDescriptions\">\n          <list />\n        </option>\n        <option name=\"taskNames\">\n          <list>\n            <option value=\":Tema2.Practica1:test\" />\n            <option value=\"--tests\" />\n            <option value=\"&quot;TestYoutuberService.youtubers2013No2013&quot;\" />\n          </list>\n        </option>\n        <option name=\"vmOptions\" />\n      </ExternalSystemSettings>\n      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\n      <DebugAllEnabled>false</DebugAllEnabled>\n      <RunAsTest>true</RunAsTest>\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"TestYoutuberService.youtubersMasAltoConNegativo\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\n      <ExternalSystemSettings>\n        <option name=\"executionName\" />\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\n        <option name=\"scriptParameters\" value=\"\" />\n        <option name=\"taskDescriptions\">\n          <list />\n        </option>\n        <option name=\"taskNames\">\n          <list>\n            <option value=\":Tema2.Practica1:test\" />\n            <option value=\"--tests\" />\n            <option value=\"&quot;TestYoutuberService.youtubersMasAltoConNegativo&quot;\" />\n          </list>\n        </option>\n        <option name=\"vmOptions\" />\n      </ExternalSystemSettings>\n      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\n      <DebugAllEnabled>false</DebugAllEnabled>\n      <RunAsTest>true</RunAsTest>\n      <method v=\"2\" />\n    </configuration>\n    <configuration default=\"true\" type=\"JetRunConfigurationType\">\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration default=\"true\" type=\"KotlinStandaloneScriptRunConfigurationType\">\n      <option name=\"filePath\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Gradle.TestYoutuberService.youtubers2013No2013\" />\n        <item itemvalue=\"Gradle.TestYoutuberService.mediaVideosListaVacia\" />\n        <item itemvalue=\"Gradle.TestYoutuberService.youtubersMasAltoConNegativo\" />\n        <item itemvalue=\"Gradle.TestYoutuberService.youtuberConMasSeguidoresListaVacia\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11\" />\n        <option value=\"bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"c76eb477-86a2-4ef2-8243-e0470b530770\" name=\"Changes\" comment=\"\" />\n      <created>1727246424769</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1727246424769</updated>\n      <workItem from=\"1727344625956\" duration=\"216000\" />\n      <workItem from=\"1727349938715\" duration=\"435000\" />\n      <workItem from=\"1727350394483\" duration=\"1144000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Prueba1\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1727331555439</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1727331555439</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Prueba1.2\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1727336923541</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1727336923541</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Prueba1.3\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1727339807340</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1727339807340</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"Prueba1.4\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1727340832964</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1727340832964</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"5\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"UnknownFeatures\">\n    <option featureType=\"com.intellij.fileTypeFactory\" implementationName=\"*.csv\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Prueba1\" />\n    <MESSAGE value=\"Prueba1.2\" />\n    <MESSAGE value=\"Prueba1.3\" />\n    <MESSAGE value=\"Prueba1.4\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Prueba1.4\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 5a4dad933351b7813d5e5cc3a458d0b649bda328)
++++ b/.idea/workspace.xml	(date 1727692509759)
+@@ -4,16 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="c76eb477-86a2-4ef2-8243-e0470b530770" name="Changes" comment="Prueba1.4">
+-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Tema2.Practica1/src/main/java/EmptyList.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Tema2.Practica1/src/main/java/YoutuberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2.Practica1/src/main/java/YoutuberService.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Tema2.Practica1/src/test/java/TestYoutuberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema2.Practica1/src/test/java/TestYoutuberService.java" afterDir="false" />
+-    </list>
++    <list default="true" id="c76eb477-86a2-4ef2-8243-e0470b530770" name="Changes" comment="Prueba1 final" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -76,7 +67,7 @@
+   <component name="GithubPullRequestsUISettings">{
+   &quot;selectedUrlAndAccountId&quot;: {
+     &quot;url&quot;: &quot;https://github.com/Rodriguezgraujuan/DWES-JRG.git&quot;,
+-    &quot;accountId&quot;: &quot;acc872cc-d5ab-4460-8ab4-1f0e500ae4a8&quot;
++    &quot;accountId&quot;: &quot;e6dac5b9-656d-4ca6-b8c9-9d7957ccd83a&quot;
+   }
+ }</component>
+   <component name="ProjectColorInfo">{
+@@ -88,33 +79,33 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Gradle.DWES-JRG:Tema2.Practica1 [:Tema2.Practica1:YoutuberService.main()].executor": "Run",
+-    "Gradle.Documents:Tema2.Practica1 [:Tema2.Practica1:App.main()].executor": "Run",
+-    "Gradle.Documents:Tema2.Practica1 [:Tema2.Practica1:YoutuberService.main()].executor": "Run",
+-    "Gradle.TestYoutuberService.mediaVideosListaVacia.executor": "Run",
+-    "Gradle.TestYoutuberService.youtuberConMasSeguidoresListaVacia.executor": "Debug",
+-    "Gradle.TestYoutuberService.youtubers2013No2013.executor": "Run",
+-    "Gradle.TestYoutuberService.youtubersMasAltoConNegativo.executor": "Run",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "com.codeium.enabled": "true",
+-    "git-widget-placeholder": "master",
+-    "kotlin-language-version-configured": "true",
+-    "last_opened_file_path": "/home/juarodgra2/Documents",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "project.structure.last.edited": "Project",
+-    "project.structure.proportion": "0.0",
+-    "project.structure.side.proportion": "0.2",
+-    "settings.editor.selected.configurable": "preferences.pluginManager",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Gradle.DWES-JRG:Tema2.Practica1 [:Tema2.Practica1:YoutuberService.main()].executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.Documents:Tema2.Practica1 [:Tema2.Practica1:App.main()].executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.Documents:Tema2.Practica1 [:Tema2.Practica1:YoutuberService.main()].executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.TestYoutuberService.mediaVideosListaVacia.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.TestYoutuberService.youtuberConMasSeguidoresListaVacia.executor&quot;: &quot;Debug&quot;,
++    &quot;Gradle.TestYoutuberService.youtubers2013No2013.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.TestYoutuberService.youtubersMasAltoConNegativo.executor&quot;: &quot;Run&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;/home/juarodgra2/Documents&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="$PROJECT_DIR$/Tema2.Practica1/src/main/java" />
+@@ -258,7 +249,7 @@
+       <updated>1727246424769</updated>
+       <workItem from="1727344625956" duration="216000" />
+       <workItem from="1727349938715" duration="435000" />
+-      <workItem from="1727350394483" duration="1144000" />
++      <workItem from="1727350394483" duration="1172000" />
+     </task>
+     <task id="LOCAL-00001" summary="Prueba1">
+       <option name="closed" value="true" />
+@@ -292,7 +283,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1727340832964</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="Prueba1 final">
++      <option name="closed" value="true" />
++      <created>1727351552102</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1727351552102</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -306,6 +305,7 @@
+     <MESSAGE value="Prueba1.2" />
+     <MESSAGE value="Prueba1.3" />
+     <MESSAGE value="Prueba1.4" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Prueba1.4" />
++    <MESSAGE value="Prueba1 final" />
++    <option name="LAST_COMMIT_MESSAGE" value="Prueba1 final" />
+   </component>
+ </project>
+\ No newline at end of file

@@ -14,7 +14,13 @@
         <option value="$PROJECT_DIR$/Tema2.Practica5/pom.xml" />
         <option value="$PROJECT_DIR$/Tema2.Practica6/pom.xml" />
         <option value="$PROJECT_DIR$/DummySocialNetwork/pom.xml" />
+        <option value="$PROJECT_DIR$/Tema3.Practica1/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Tema3.Practica1/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="corretto-19 (2)" project-jdk-type="JavaSDK" />
